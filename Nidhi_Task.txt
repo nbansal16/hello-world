@@ -1,0 +1,89 @@
+Production:
+	http://simpleci.sapient.com:8080/jenkins/login?from=%2Fjenkins
+	http://simpleci.sapient.com/jenkins/login?from=%2Fjenkins
+	
+
+Learning tools:
+	1) Jenkins 2 
+	2) Java - Done 
+	3) Maven 
+	4) Sonar - optional 
+	5) Jenkins Pipeline 
+	6) Junit 
+	7) Docker 
+	8) nodeJs 
+	9) Vagrant 
+
+Access: 
+	https://tools.sapient.com/bitbucket-code-commons
+	https://del.tools.publicis.sapient.com/bitbucket
+
+	VM - 
+		Oracle virtual box
+		Vagrant 
+		Eclipse 
+		
+		Setup SimpleCI plug ins repos access 
+
+Ramp UP (One Week):
+Week1:
+	Day 1(basic):
+		1) Install Jenkins on your laptop
+		2) Configure it with sample Maven project 
+		3) Create a Jenkins job and integrate with maven project 
+		4) Understand Multi module project 
+Week2:	
+	Day 1(plugins):
+		1) Create a sample multimodule project with jenkins  
+		2) Learn jenkins plugin creation 
+		3) Create a sample plugin and install it with jenkins 
+		4) Understand Groovy language
+	
+	Day 2(pipeline as code):
+		1) create a pipeline as a code with groovy scripts
+		2) Explore Jenkinsfile 
+		3) Create a Jenkinsfile with multiple stages.
+		
+	Day 3(Docker): 
+		1) Understand Docker 
+		2) Create a small docker container and play around with that
+		3) Create a application specific docker contianer and integrate with jenkins and do build and deployment
+		
+	Day 4(Explore bitbucketsource plugins)
+		1) How authentication and authorization is working 
+		2) Try to explore more on this and fix if any issues
+		3) Explore more about jenkins shared library from github
+
+	Day 5(Jenkins Slave):
+		1) How Jenkins slave works 
+		2) Create a slave and play around with that
+		3) Blue ocean theme practice
+		4) Demo of your work
+
+
+Week3:
+	Day 1(Shared Library &  Pipeline Groovy Library):
+		1)Understand Shared Library
+		2)Understand Pipeline groovy Library
+		3)Have a call with Prashanth and explore the workflow on this
+		
+	Day 2(Groovy scripts):
+		1) create a pipeline as a code with groovy scripts for sample projects
+		2) Explore java/Maven project specific groovy scripts 
+			
+	Day 3(SimpleCI):
+		1) Login to SimpleCI  server and explore the projects and configurations
+		
+	Day 4(Simple Theme plugin & JSS and CSS ):
+		1) understanding of CSS & JSS
+		2) Simple Theme PLugin execution and update UI 
+	
+	Day 5(Vagrant setup):
+		1) Install vagrant and setup the SimpleCI server on your local desktop
+
+Reference:
+	http://www.devopsschool.com/tutorial/jenkins/
+	https://jenkins.io/solutions/pipeline/
+	https://jenkins.io/doc/book/pipeline-as-code/ 
+	https://jenkins.io/doc/book/pipeline/shared-libraries/
+	https://wiki.jenkins.io/display/JENKINS/Plugin+tutorial
